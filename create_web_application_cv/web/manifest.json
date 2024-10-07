@@ -1,11 +1,11 @@
 {
-    "name": "web_idevexpert",
-    "short_name": "web_idevexpert",
+    "name": "create_web_application_cv",
+    "short_name": "create_web_application_cv",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "proyect web application flutter idevexpert",
+    "description": "for create mvvm architecture",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
