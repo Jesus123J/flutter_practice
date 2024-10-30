@@ -48,14 +48,25 @@ class DashboardLeft extends StatelessWidget {
                child: Container(
                    height: 400,
                    color: Colors.white,
+                  padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
                   child: Row(
                      children: [
-                        Container(
+                        Expanded(child: Container(
+                          padding: EdgeInsets.symmetric(horizontal: 10),
+                          color: Colors.green,
+                          child: Row(
+                              children: [
+                                Expanded(child: Container()),
+                                Container(
 
-                        ),
-                        Container(
-
-                        )
+                                   height: 370,
+                                  width: 200,
+                                  color: Colors.yellow,
+                                )
+                              ],
+                          ),
+                        )),
+                        Expanded(child: Container())
                      ],
                   ),
                ),
